@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #d9f6d9;
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the left */
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+ 
+}
+#body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #d9f6d9;
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the left */
+    align-items: center;
+    background-image: url(image/l.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #424642 solid 15px;
+    border-radius: 5%;
+    width: 63%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; /* Ensures the form stacks vertically */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    justify-content: center;
+    max-width: 500px;
+    margin: 10px 15px; /* Space between container and image */
+    overflow: hidden;
+    box-shadow:  1px 1px 10px;
+}
+
+
+.form-container {
+    padding: 0px 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #4caf50;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 60%;
+    padding: 15px;
+    margin: 10px 30px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+.primary-btn {
+    background-color: #4caf50;
+    width: 67%;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.primary-btn:hover {
+    background-color: #8bee90;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.social-btn {
+    background-color: #eee;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.social-btn:hover{
+    color: #00ff0d;
+}
+
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    font-size: 12px;
+    margin-top: 10px;
+}
