@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
             <form  method="post">
                 <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuario"  required>
                 <input type="password" class="form-control" id="clave" name="clave" placeholder="Contraseña"  required>
-                <button type="submit" class="primary-btn" name="login">Iniciar sesion</button><br/>
+                <button type="submit" class="primary-btn" name="login">Iniciar Sesion</button><br/>
             </form>
             <a class="CREAR" href="PRESENTACION/index.php">Crear Usuario</a>
             <p>o registrarse con</p>
