@@ -41,7 +41,6 @@ body {
     box-shadow:  1px 1px 10px;
 }
 
-
 .form-container {
     padding: 0px 30px;
     text-align: center;
@@ -111,4 +110,12 @@ a:hover {
 .terms {
     font-size: 12px;
     margin-top: 10px;
+}
+/*nuevo*/
+menu{
+  color: 131F31;  
+  color: EAE9E0;  
+  color: 759A7B;  
+  color: 9B3440;  
+  color: 8C7CA4;    
 }
